@@ -1,5 +1,6 @@
 const net = require('net');
 
+// try to establish a TCP connection with the specified host and port
 const connection = net.createConnection({
   host: 'localhost',
   port: 3000
