@@ -10,7 +10,7 @@ app.use((req, res, next) => {
   next(); // I'm done; call the next middleware or route handler in line
 });
 
-// route handler handles/responds to request to a particular verb/path combination
+// route handler: handles/responds to request to a particular verb/path combination
 
 // GET /home
 app.get('/home', (request, response) => {
