@@ -5,3 +5,4 @@
 * [M03W06 - Web Servers 101](/m03w06-1)
 * [M03W07 - HTTP Cookies & User Authentication](/m03w07-1)
 * [M04W08 - Client Side JavaScript & jQuery](/m04w08-2)
+* [M04W09 - AJAX](/m04w09-1)
