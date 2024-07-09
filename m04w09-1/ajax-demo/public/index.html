@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="food-item-styles.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+  <!-- <script src="ajax-testing.js"></script> -->
+  <script src="food-item.js"></script>
+</head>
+<body>
+  <h1>All the food items!</h1>
+
+  <form id="new-food-item-form">
+    <label>Name</label>
+    <input name="name" />
+    <br/>
+    <label>Price</label>
+    <input name="price" />
+    <br/>
+    <label>Calories</label>
+    <input name="calories" />
+    <br/>
+    <label>Tagline</label>
+    <input name="tagline" />
+    <br/>
+    <button type="submit">Create!</button>
+  </form>
+
+  <section id="food-item-container"></section>
+
+</body>
+</html>
