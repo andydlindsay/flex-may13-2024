@@ -1,0 +1,6 @@
+$fontColor: maroon;
+$borderColor: salmon;
+$borderStyle: solid;
+$borderWidth: 2px;
+$borderStyle: $borderColor $borderStyle $borderWidth;
+$myDisplay: flex;

@@ -1,0 +1,48 @@
+h2 {
+  font-size: 12px;
+  color: maroon;
+  border: salmon solid 2px;
+  display: flex;
+}
+
+header {
+  font-size: 20px;
+  color: yellow;
+}
+header div {
+  background-color: orange;
+}
+header div h2 {
+  text-decoration: underline;
+}
+
+.heading, .another {
+  display: flex;
+  flex-direction: column;
+}
+
+.yet-another, .another {
+  border: 2px solid yellow;
+}
+
+.another {
+  color: white;
+}
+
+.square {
+  text-decoration: underline;
+  border-radius: 15px;
+  width: 30px;
+  height: 15px;
+  color: pink;
+}
+
+.big-square {
+  text-decoration: underline;
+  border-radius: 15px;
+  width: 150px;
+  height: 75px;
+  color: grey;
+}
+
+/*# sourceMappingURL=output.css.map */
