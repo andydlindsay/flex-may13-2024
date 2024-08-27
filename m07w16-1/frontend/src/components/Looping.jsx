@@ -10,7 +10,7 @@ const Looping = () => {
 
   const showMessage = false;
 
-  // short circuiting logical && or ||
+  // short circuiting with logical &&
   // false && true
 
   return (
