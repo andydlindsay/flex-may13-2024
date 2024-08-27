@@ -1,0 +1,9 @@
+.show {
+  color: blue;
+  text-decoration: underline;
+}
+
+.hidden {
+  color: purple;
+  text-decoration: overline;
+}
