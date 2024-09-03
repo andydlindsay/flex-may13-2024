@@ -6,52 +6,26 @@
 - [x] Closure review
 - [x] Reading and setting state
 
-* props => data from outside the function
-* state => data that belongs to a function (created inside that function)
+### Review of Closures
+- From MDN:
+> A **closure** is the combination of a function bundled together (enclosed) with references to its surrounding state (the **lexical environment**). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function **creation** time.
+- In other words, functions remember where they were declared and what variables were in scope (they had access to) at the time they were declared
+- This allows us to preserve _state_ in between function calls (subsequent calls to the function can use the updated state value)
+- Contrasting with JS Classes (how we used to create React components): components as objects were instantiated from a Class and it was the same object that was used over and over again. Therefore it always had access to its own internal state. Functional components need some way of creating a _closure_ so that we can achieve the same result.
+- Enter `useState` which keep track of state for us between function calls and allow us to retrieve and edit variables every time the function is invoked (eg. the component is created/updated)
 
-* re-render => when React calls your component function again
-* old data and new data are not equal
-
-prevData !== currentData
-10              11
-
-### Hook
-* hooks were added to React in February 2019
-* allows us to tap into the React lifecycle
-* `useState`, `useEffect`, `useReducer`, `useContext`
-* starts with `use`
-* all hooks are functions
-* `useState` => allows us to give React a value to hang onto; if the value ever changes our component gets re-rendered
+### State
+- State (data) is created in a component by using the `State` hook (`useState`)
+- `useState` takes an initial value for state which will be used on the first render
+- `useState` returns the current value of state and a function (a way to set the value)
 
 ```js
-const arr = useState('hello');
-const value = arr[0];
-const setter = arr[1];
-
-// array destructuring
-const [value, setValue] = useState('hello');
+// it's common to destructure the return value from useState
 const [username, setUsername] = useState('');
-const [password, setPassword] = useState('');
 ```
 
+#### NOTE: We need to use `useState` to keep track of our data so that React will know when changes occur 
 
-we are recreating the input field in the virtual DOM
-
-actual DOM
-virtual DOM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Useful Links
+- [ReactJS Docs](https://react.dev/)
+- [MDN: Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
