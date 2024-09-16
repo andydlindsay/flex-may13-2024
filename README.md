@@ -13,3 +13,4 @@
 * [M07W17 - What is React State?](/m07w17-1)
 * [M07W18 - Custom Hooks](/m07w18-1)
 * [M07W18 - Data Fetching & Other Side Effects](/m07w18-2)
+* [M07W19 - Class-based Components](/m07w19-1)
