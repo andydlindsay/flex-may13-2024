@@ -1,4 +1,4 @@
-import { calcStatus } from '../helpers'
+import { calcStatus, abc123ABC } from '../helpers'
 
 describe('announceResult function', () => {
   let fakeState;
@@ -33,4 +33,25 @@ describe('announceResult function', () => {
   test('returns "Waiting" if nothing is passed in', () => {
     expect(calcStatus()).toBe('Waiting');
   });
+});
+
+describe('tests for abc123ABC function', () => {
+
+  test('should return the winning choice is isCheating is true', () => {
+    const isCheating = true;
+    const playerSelection = 'Axe';
+    const actual = abc123ABC(isCheating, playerSelection);
+    const expected = 'Moai';
+    expect(actual).toBe(expected);
+  });
+
+  test('should return a valid choice if isCheating is false', () => {
+    const isCheating = false;
+    const playerSelection = 'Axe';
+    const actual = abc123ABC(isCheating, playerSelection);
+    
+    const options = ['Moai', 'Axe', 'Tree'];
+    expect(options).toContain(actual);
+  });
+
 });
