@@ -15,3 +15,4 @@
 * [M07W18 - Data Fetching & Other Side Effects](/m07w18-2)
 * [M07W19 - Class-based Components](/m07w19-1)
 * [M08W20 - Unit & Integration Testing](/m08w20-1)
+* [M08W20 - End-to-End Testing with Cypress](/m08w20-2)
