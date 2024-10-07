@@ -17,3 +17,4 @@
 * [M08W20 - Unit & Integration Testing](/m08w20-1)
 * [M08W20 - End-to-End Testing with Cypress](/m08w20-2)
 * [M08W21 - Real World React](/m08w21-1)
+* [M09W22 - Intro to Ruby](/m09w22-1)
