@@ -22,8 +22,6 @@ class Car
   # end
 end
 
-# classes are functions that return objects
-
 my_car = Car.new('Toyota', 'Tercel', 1986)
 
 p my_car
