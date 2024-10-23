@@ -19,3 +19,4 @@
 * [M08W21 - Real World React](/m08w21-1)
 * [M09W22 - Intro to Ruby](/m09w22-1)
 * [M09W23 - Intro to TypeScript](/m09w23-2)
+* [M09W24 - Intro to Vue.js](/m09w24-2)
